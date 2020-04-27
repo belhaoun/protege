@@ -63,18 +63,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasOneof -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasOneof">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person"/>
-        <rdfs:comment>a publication was written  by some authors</rdfs:comment>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant">
@@ -476,12 +464,6 @@
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasOneof"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished"/>
