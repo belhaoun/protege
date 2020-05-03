@@ -1,0 +1,13 @@
+# Which are the publications published in BioMed Central? 
+
+SELECT
+    ?publication ?publicationLabel ?location ?locationLabel
+WHERE {
+    VALUES ?publication {wd:Q27990103 wd:Q45318764 wd:Q48820623 wd:Q30077834 wd:Q77655133 wd:Q57308324 wd:Q37043902 wd:Q27335114 wd:Q22673963 wd:Q77560095 }
+  
+    OPTIONAL {?publication wdt:P2860 ?location } .
+  	
+    FILTER regex(?location, "BioMed Central")
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}

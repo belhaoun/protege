@@ -18,10 +18,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -38,6 +40,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember"/>
@@ -52,6 +55,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
@@ -64,6 +68,7 @@
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -79,6 +84,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPerson -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPerson">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf"/>
@@ -93,6 +99,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublished -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublished">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished"/>
@@ -103,6 +110,7 @@
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -115,6 +123,7 @@
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -130,6 +139,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
@@ -141,6 +151,7 @@
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -162,10 +173,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAName -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAName">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -179,6 +192,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliationName -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliationName">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
@@ -190,6 +204,7 @@
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasConferenceName -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasConferenceName">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -203,6 +218,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDOI -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDOI">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication"/>
@@ -213,6 +229,7 @@
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDate -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDate">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -226,6 +243,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasEndDate -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasEndDate">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
@@ -237,6 +255,7 @@
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasJournalName -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasJournalName">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -250,6 +269,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasKey -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasKey">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication"/>
@@ -260,6 +280,7 @@
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasLocationName -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasLocationName">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -273,6 +294,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasORCID -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasORCID">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
@@ -284,6 +306,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublisherName -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublisherName">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
@@ -294,6 +317,7 @@
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasTitle -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasTitle">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
@@ -312,10 +336,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation">
         <rdfs:subClassOf>
@@ -337,6 +363,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Author -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Author">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person"/>
     </owl:Class>
@@ -344,6 +371,7 @@
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference">
         <rdfs:subClassOf>
@@ -380,6 +408,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal">
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -407,6 +436,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Location -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Location">
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -426,6 +456,7 @@
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person">
         <rdfs:subClassOf>
@@ -460,6 +491,7 @@
 
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication">
         <rdfs:subClassOf>
@@ -502,6 +534,7 @@
 
     <!-- http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher">
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -528,6 +561,7 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+
 
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
@@ -564,5 +598,6 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/ -->
+
 

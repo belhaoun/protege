@@ -1,0 +1,409 @@
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher> <http://www.w3.org/2000/01/rdf-schema#comment> "a journal is publisher by a publisher" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation> <http://www.w3.org/2000/01/rdf-schema#comment> "an Author is affiliated to an Affiliation" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "Affiliation have afficated Person caller member" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant> <http://www.w3.org/2000/01/rdf-schema#comment> "a Conference has a Participant" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPerson
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPerson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPerson> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPerson> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPerson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPerson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPerson> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPerson> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPerson> <http://www.w3.org/2000/01/rdf-schema#comment> "a Publication is Written by a Person" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublished
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublished> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublished> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublished> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublished> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf> <http://www.w3.org/2000/01/rdf-schema#comment> "a publication was written by some person" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf> <http://www.w3.org/2000/01/rdf-schema#comment> "a Conference has a Person" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A publisher is the publisher of a journal" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAName
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAName> <http://www.w3.org/2000/01/rdf-schema#comment> "a Person has  a Name" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliationName
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliationName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliationName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliationName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliationName> <http://www.w3.org/2000/01/rdf-schema#comment> "an affiliation has a name" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasConferenceName
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasConferenceName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasConferenceName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasConferenceName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasConferenceName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasConferenceName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasConferenceName> <http://www.w3.org/2000/01/rdf-schema#comment> "a Conference has a Name" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDOI
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDOI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDOI> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDOI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDOI> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDOI> <http://www.w3.org/2000/01/rdf-schema#comment> "a Pub can have a DOI" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDate
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDate> <http://www.w3.org/2000/01/rdf-schema#comment> "a Publication has a Date" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasEndDate
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasEndDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasEndDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasEndDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasEndDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasEndDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasEndDate> <http://www.w3.org/2000/01/rdf-schema#comment> "a conference has Ende" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasJournalName
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasJournalName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasJournalName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasJournalName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasJournalName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasJournalName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasJournalName> <http://www.w3.org/2000/01/rdf-schema#comment> "a Journal has a Name" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasKey
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasKey> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasKey> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasKey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasKey> <http://www.w3.org/2000/01/rdf-schema#comment> "a Pub has a Key" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasLocationName
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasLocationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasLocationName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasLocationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasLocationName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasLocationName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasLocationName> <http://www.w3.org/2000/01/rdf-schema#comment> "Location has a Name" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasORCID
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasORCID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasORCID> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasORCID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasORCID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasORCID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublisherName
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublisherName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublisherName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublisherName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublisherName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublisherName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasTitle
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasTitle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliationName> .
+_:genid2 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Author
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Author> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant> .
+_:genid3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasConferenceName> .
+_:genid4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDate> .
+_:genid5 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasLocationName> .
+_:genid6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublished> .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher> .
+_:genid8 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasJournalName> .
+_:genid9 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Location
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf> .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasLocationName> .
+_:genid11 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid11 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation> .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf> .
+_:genid13 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAName> .
+_:genid14 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid14 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasORCID> .
+_:genid15 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid15 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> <http://www.w3.org/2000/01/rdf-schema#comment> "who write or wrote scientific publication" .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished> .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDate> .
+_:genid17 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid17 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasTitle> .
+_:genid18 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid18 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDOI> .
+_:genid19 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid19 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasKey> .
+_:genid20 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid20 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher> .
+_:genid21 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublisherName> .
+_:genid22 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid22 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher> <http://www.w3.org/2000/01/rdf-schema#comment> "publisher  is a Company" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid23 <http://www.w3.org/2002/07/owl#members> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Location> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid29 <http://www.w3.org/2002/07/owl#members> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid35 <http://www.w3.org/2002/07/owl#members> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

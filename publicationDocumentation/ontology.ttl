@@ -1,0 +1,402 @@
+@prefix : <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32> .
+
+<http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher
+:hasAPublisher rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               owl:inverseOf :isPublisherOf ;
+               rdf:type owl:FunctionalProperty ,
+                        owl:AsymmetricProperty ,
+                        owl:IrreflexiveProperty ;
+               rdfs:domain :Journal ;
+               rdfs:range :publisher ;
+               rdfs:comment "a journal is publisher by a publisher" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation
+:hasAffiliation rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                owl:inverseOf :hasMember ;
+                rdf:type owl:AsymmetricProperty ,
+                         owl:IrreflexiveProperty ;
+                rdfs:domain :Person ;
+                rdfs:range :Affiliation ;
+                rdfs:comment "an Author is affiliated to an Affiliation" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember
+:hasMember rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdf:type owl:AsymmetricProperty ,
+                    owl:IrreflexiveProperty ;
+           rdfs:domain :Affiliation ;
+           rdfs:range :Person ;
+           rdfs:comment "Affiliation have afficated Person caller member" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant
+:hasParticipant rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                owl:inverseOf :isParticipantOf ;
+                rdf:type owl:AsymmetricProperty ,
+                         owl:IrreflexiveProperty ;
+                rdfs:domain :Conference ;
+                rdfs:range :Person ;
+                rdfs:comment "a Conference has a Participant" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPerson
+:hasPerson rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           owl:inverseOf :isOneOf ;
+           rdf:type owl:AsymmetricProperty ,
+                    owl:IrreflexiveProperty ;
+           rdfs:domain :Publication ;
+           rdfs:range :Person ;
+           rdfs:comment "a Publication is Written by a Person" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublished
+:hasPublished rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              owl:inverseOf :isPublished ;
+              rdfs:domain :Journal ;
+              rdfs:range :Publication .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf
+:isOneOf rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :Person ;
+         rdfs:range :Publication ;
+         rdfs:comment "" ,
+                      "a publication was written by some person" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf
+:isParticipantOf rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 owl:inverseOf :isParticipantOf ;
+                 rdf:type owl:AsymmetricProperty ,
+                          owl:IrreflexiveProperty ;
+                 rdfs:domain :Conference ;
+                 rdfs:range :Person ;
+                 rdfs:comment "a Conference has a Person" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished
+:isPublished rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdf:type owl:AsymmetricProperty ,
+                      owl:IrreflexiveProperty ;
+             rdfs:domain :Publication ;
+             rdfs:range :Journal .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf
+:isPublisherOf rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdf:type owl:InverseFunctionalProperty ,
+                        owl:AsymmetricProperty ,
+                        owl:IrreflexiveProperty ;
+               rdfs:domain :publisher ;
+               rdfs:range :Journal ;
+               rdfs:comment "A publisher is the publisher of a journal" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAName
+:hasAName rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :Person ;
+          rdfs:range xsd:string ;
+          rdfs:comment "a Person has  a Name" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliationName
+:hasAffiliationName rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdf:type owl:FunctionalProperty ;
+                    rdfs:domain :Affiliation ;
+                    rdfs:range xsd:string ;
+                    rdfs:comment "an affiliation has a name" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasConferenceName
+:hasConferenceName rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdf:type owl:FunctionalProperty ;
+                   rdfs:domain :Conference ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "a Conference has a Name" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDOI
+:hasDOI rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:domain :Publication ;
+        rdfs:range xsd:string ;
+        rdfs:comment "a Pub can have a DOI" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDate
+:hasDate rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdf:type owl:FunctionalProperty ;
+         rdfs:domain :Publication ;
+         rdfs:range xsd:dateTime ;
+         rdfs:comment "a Publication has a Date" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasEndDate
+:hasEndDate rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain :Conference ;
+            rdfs:range xsd:dateTime ;
+            rdfs:comment "a conference has Ende" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasJournalName
+:hasJournalName rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain :Journal ;
+                rdfs:range xsd:string ;
+                rdfs:comment "a Journal has a Name" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasKey
+:hasKey rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:domain :Publication ;
+        rdfs:range xsd:string ;
+        rdfs:comment "a Pub has a Key" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasLocationName
+:hasLocationName rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdf:type owl:FunctionalProperty ;
+                 rdfs:domain :Conference ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "Location has a Name" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasORCID
+:hasORCID rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :Person ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublisherName
+:hasPublisherName rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdf:type owl:FunctionalProperty ;
+                  rdfs:domain :publisher ;
+                  rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasTitle
+:hasTitle rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :Publication ;
+          rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation
+:Affiliation rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasMember ;
+                               owl:someValuesFrom :Person
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasAffiliationName ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:string
+                             ] .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Author
+:Author rdf:type owl:Class ;
+        rdfs:subClassOf :Person .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference
+:Conference rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasParticipant ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Person
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasConferenceName ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:string
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasDate ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:dateTime
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasLocationName ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:string
+                            ] .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal
+:Journal rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty :hasPublished ;
+                           owl:someValuesFrom :Publication
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :hasAPublisher ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass :publisher
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :hasJournalName ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:string
+                         ] .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Location
+:Location rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :isPublisherOf ;
+                            owl:someValuesFrom :Journal
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasLocationName ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:string
+                          ] .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person
+:Person rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasAffiliation ;
+                          owl:someValuesFrom :Affiliation
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :isOneOf ;
+                          owl:someValuesFrom :Publication
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasAName ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasORCID ;
+                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] ;
+        rdfs:comment "who write or wrote scientific publication" .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication
+:Publication rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty :isPublished ;
+                               owl:someValuesFrom :Journal
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasDate ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:dateTime
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasTitle ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:string
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasDOI ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:string
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasKey ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:string
+                             ] .
+
+
+###  http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher
+:publisher rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasAPublisher ;
+                             owl:someValuesFrom :Journal
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasPublisherName ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onDataRange xsd:string
+                           ] ;
+           rdfs:comment "publisher  is a Company" .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Affiliation
+                :Conference
+                :Journal
+                :Location
+                :Publication
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Affiliation
+                :Conference
+                :Journal
+                :Person
+                :Publication
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Affiliation
+                :Conference
+                :Journal
+                :Person
+                :Publication
+                :publisher
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

@@ -1,0 +1,912 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Datatype"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "0",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Affiliation",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affiliation"
+    },
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Author",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Author"
+    },
+    "id" : "9",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Journal",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Journal"
+    },
+    "id" : "3"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Conference",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Conference"
+    },
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Person",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "subClasses" : [ "9" ],
+    "comment" : {
+      "undefined" : "who write or wrote scientific publication"
+    },
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#publisher",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "publisher"
+    },
+    "comment" : {
+      "undefined" : "publisher  is a Company"
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Publication",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Publication"
+    },
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#Location",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Location"
+    },
+    "id" : "32"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "15",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  } ],
+  "property" : [ {
+    "id" : "1",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "28",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "31",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "33",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "34",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "40",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "41",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "42",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "43",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "44",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "46",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "47",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "48",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "49",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "50",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "52",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "56",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "57",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "58",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "60",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "isPublisherOf"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "A publisher is the publisher of a journal"
+    },
+    "attributes" : [ "inverse functional", "object", "irreflexive", "asymmetric" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasORCID",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasORCID"
+    },
+    "maxCardinality" : "1",
+    "domain" : "6",
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasTitle",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasTitle"
+    },
+    "cardinality" : "1",
+    "domain" : "12",
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "15",
+    "subproperty" : [ "16", "17", "18", "19", "1", "20", "21", "22", "23", "24" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublisherName",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "hasPublisherName"
+    },
+    "cardinality" : "1",
+    "domain" : "2",
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher",
+    "inverse" : "1",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasAPublisher"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "a journal is publisher by a publisher"
+    },
+    "attributes" : [ "object", "someValues", "irreflexive", "asymmetric", "functional" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "isPublished"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "12",
+    "attributes" : [ "object", "someValues", "irreflexive", "asymmetric" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublisherOf",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "isPublisherOf"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "32",
+    "comment" : {
+      "undefined" : "A publisher is the publisher of a journal"
+    },
+    "attributes" : [ "inverse functional", "object", "someValues", "irreflexive", "asymmetric" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublished",
+    "inverse" : "19",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasPublished"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "3",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation",
+    "inverse" : "18",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasAffiliation"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "an Author is affiliated to an Affiliation"
+    },
+    "attributes" : [ "object", "someValues", "irreflexive", "asymmetric" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasParticipant",
+    "inverse" : "21",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasParticipant"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "35",
+    "comment" : {
+      "undefined" : "a Conference has a Participant"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "isOneOf"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "6",
+    "comment" : { },
+    "attributes" : [ "object", "someValues" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAName",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "hasAName"
+    },
+    "cardinality" : "1",
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "a Person has  a Name"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliation",
+    "inverse" : "18",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasAffiliation"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "an Author is affiliated to an Affiliation"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDOI",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasDOI"
+    },
+    "maxCardinality" : "1",
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "a Pub can have a DOI"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "38"
+  }, {
+    "range" : "2",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "2",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasMember"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "Affiliation have afficated Person caller member"
+    },
+    "attributes" : [ "object", "someValues", "irreflexive", "asymmetric" ],
+    "id" : "41"
+  }, {
+    "range" : "6",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "2",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "12",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "2",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "6",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "6",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "2",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "32",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "12",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "3",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "32",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasJournalName",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hasJournalName"
+    },
+    "cardinality" : "1",
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "a Journal has a Name"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "53"
+  }, {
+    "range" : "12",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "32",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "12",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "12",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPerson",
+    "inverse" : "22",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasPerson"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "a Publication is Written by a Person"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isPublished",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "isPublished"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "12",
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "19"
+  }, {
+    "range" : "35",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "3",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasDate",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "hasDate"
+    },
+    "cardinality" : "1",
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "a Publication has a Date"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasLocationName",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "hasLocationName"
+    },
+    "cardinality" : "1",
+    "domain" : "35",
+    "comment" : {
+      "undefined" : "Location has a Name"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasKey",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "hasKey"
+    },
+    "maxCardinality" : "1",
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "a Pub has a Key"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "64"
+  }, {
+    "range" : "6",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAPublisher",
+    "inverse" : "1",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasAPublisher"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "a journal is publisher by a publisher"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric", "functional" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isParticipantOf",
+    "inverse" : "21",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isParticipantOf"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "35",
+    "comment" : {
+      "undefined" : "a Conference has a Person"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasEndDate",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "hasEndDate"
+    },
+    "domain" : "35",
+    "comment" : {
+      "undefined" : "a conference has Ende"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasPublished",
+    "inverse" : "19",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasPublished"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasMember",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasMember"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "Affiliation have afficated Person caller member"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasConferenceName",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasConferenceName"
+    },
+    "cardinality" : "1",
+    "domain" : "35",
+    "comment" : {
+      "undefined" : "a Conference has a Name"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#hasAffiliationName",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "hasAffiliationName"
+    },
+    "cardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "an affiliation has a name"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32#isOneOf",
+    "baseIri" : "http://www.semanticweb.org/badr/ontologies/2020/3/untitled-ontology-32",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "isOneOf"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "6",
+    "comment" : { },
+    "attributes" : [ "object" ],
+    "id" : "22"
+  } ]
+}
